@@ -1,12 +1,10 @@
-import { FC } from 'react';
-
 import './style.css';
+import Greet from './Greet';
 
-export const App: FC<{ name: string }> = ({ name }) => {
+export const App= () => {
   return (
     <div>
-      <h1>Hello {name}!</h1>
-      <p>Start editing to see some magic happen :)</p>
+     <Greet name={"321Go"} messageCount={100}/>
     </div>
   );
 };
